@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bibliography, M2 Design Research, ENS P-S">
+    <meta name="author" content="Clarisse Barbot">
+    <title>Etat de l'art</title>
+
+
+<!--Bootsrap-->
+<link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">   
+<link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+    <!-- Custom script for this template-->
+    <script src="biblio.js"></script>
+    <!--Paged js-->
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+        
+      }
+
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      @media (max-width : 1000px){
+        .nav{
+          display: none;
+        }
+        #print{
+          display: none;
+        }
+        #titre{
+          font-size: 4rem;
+        }
+        .btn{
+          display: none;
+        }
+      }
+
+      
+    </style>
+  </head>
+
+
+  <body>
+
+
+<div class="container">
+  <header class="blog-header lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-7 text-center">
+        <a class="blog-header-logo text-dark" id="titre" href="index.html">Bibliographie</a>
+      </div>
+      <div class="col-3 d-flex align-items-right" >
+        <nav class="nav ">
+          <a class="p-2 link-perso" href="#Articles">Articles de recherche</a>
+          <a class="p-2 link-perso" href="#Livres">Ouvrages</a>
+          <a class="p-2 link-perso" href="#Memoires">Mémoires</a>
+          <a class="p-2 link-perso" href="#Catalogues">Catalogues et Livres d'art</a>
+          <a class="p-2 link-perso" href="#PodcastsDocumentaires">Podcasts & Documentaires</a>
+        </nav>
+      </div>
+      <div class="col-2 d-flex justify-content-end align-items-center">
+        <a class="btn btn-l btn-outline-dark rounded-pill" onclick="myFunc('print')">Print</a>
+      </div>
+    </div>
+  </header>
+<!--
+  <div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-between">
+      <a class="p-2 link-secondary" href="#">Articles & publications scientifiques</a>
+      <a class="p-2 link-secondary" href="#">Essais</a>
+      <a class="p-2 link-secondary" href="#">Catalogue d'exposition</a>
+      <a class="p-2 link-secondary" href="#">Livre d'art</a>
+      <a class="p-2 link-secondary" href="#">Podcast</a>
+      <a class="p-2 link-secondary" href="#">Documentaires</a>
+    </nav>
+  </div>
+  -->
+</div>
+
+<main class="container">
+
+  <!--
+  <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 fst-italic">Introduction</h1>
+      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly
+         and efficiently about what’s most interesting in this post’s contents.</p>
+    </div>
+  </div>
+-->
+  
+
+  <div class="row g-5">
+    <div class="col-md-7">
+      <!--
+      <div id="myBtnContainer">
+        <button class="btn btn-sm btn-outline-dark rounded-pill" onclick="filterSelection('all')"> Tous les contenus</button>
+        <button class="btn btn-sm btn-outline-dark rounded-pill" onclick="filterSelection('histoire-teinture')"> Histoire Teinture</button>
+        <button class="btn btn-sm btn-outline-dark rounded-pill" onclick="filterSelection('textile')"> Textile</button>
+        <button class="btn btn-sm btn-outline-dark rounded-pill" onclick="filterSelection('circulation')"> Circulation</button>
+        <button class="btn btn-sm btn-outline-dark rounded-pill" onclick="filterSelection('soutenabilité')"> Soutenabilité</button>
+      </div>
+      -->
+      <hr>
+
+        <div class="container">
+
+
+      <h3 class="pb-4 mb-4 border-bottom" id="Articles">
+        Articles de recherche
+        </h3>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 " onclick="r1()" onclick="r1out()">
+            <h2 class="blog-post-title mb-1">Les soies teintes aux Gobelins</h2>           
+            <p class="blog-post-meta">Barbier, Muriel. « Les soies teintes aux Gobelins ». <a class="italic">In Situ. Revue des 
+              patrimoines </a> , nᵒ 50 (23 juin 2023). 
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Textile</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Histoire Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-8 " onclick="r2()" onclick="r2out()">
+            <h2 class="blog-post-title mb-1">Natural dyes in modern textile dyehouses</h2> 
+            <p class="blog-post-meta">Bechtold, T, A Turcanu, E Ganglberger, et S Geissler.
+               « Natural dyes in modern textile dyehouses — how to combine experiences of two centuries
+                to meet the demands of the future? » Journal of Cleaner Production 11, nᵒ 5 (1 août 2003): 
+                499‑509. https://doi.org/10.1016/S0959-6526(02)00077-X.
+            </p>
+          </div>
+
+          <!--Shows that for xome coloring materials the use of alum /mordant doesnt alter fastness &
+             some plants have really good fastness-->
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Teinture</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Soutenabilité</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Solidité</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-8 " onclick="r3()">
+            <h2 class="blog-post-title mb-1">Le geste et la couleur </h2>
+            <p class="blog-post-meta">Dubois, Arnaud. « Le geste et la couleur ». <a class="italic"> Artefact. Techniques,
+               histoire et sciences humaines </a> Hors-série 01, nᵒ HS 01 (18 juin 2015): 177‑92.
+                https://doi.org/10.4000/artefact.7439.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Anthropologie</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Couleur</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Are Natural Colorants Good for Your Health?</h2>
+            <p class="blog-post-meta">Glover, Brian, et Jeffrey H Pierce. « Are Natural Colorants Good for Your Health? »
+               Journal of the Society of Dyers and Colourists 109, nᵒ 1 (1993): 5‑7.
+              </p>
+          </div>
+
+          <!--L'article qui EN BREF fait dire à tous les ingénieurs bouh les teintures naturelles-->
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Sustainable Fashion: Eco-Friendly Dyeing of Wool Fiber with Novel Mixtures of Biodegradable
+              Natural Dyes </h2>
+            <p class="blog-post-meta">Lin, Lina, Tiancheng Jiang, Lexin Xiao, Md Nahid Pervez, Xiaobo Cai, Vincenzo Naddeo, 
+              et Yingjie Cai. « Sustainable Fashion: Eco-Friendly Dyeing of Wool Fiber with Novel Mixtures of Biodegradable
+               Natural Dyes ». Scientific Reports 12, nᵒ 1 (5 décembre 2022): 21040. https://doi.org/10.1038/s41598-022-25495-6.
+            </p>
+          </div>
+
+          <!--demonstartion de possibilité de teintue en trichromie sans mordants en teinture naturelle-->
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Technique</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+    
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Cercare Il Colore</h2>
+            <p class="blog-post-meta">Tiragallo, Felice. « Cercare Il Colore. La Tintura Naturale Nella Tessitura 
+              Artigiana Sarda in Una Prospettiva Di Mutamento Culturale ». <a class = "italic">Dialoghi Con La Natura in Sardegna.
+               Per Un&#39;Antropologia Delle Pratiche e Dei Saperi, a Cura Di (Edr.) M. Gabriella Da Re </a>, 1 janvier 2015.
+              </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Reviewing the Sustainability of Natural Dyes</h2>
+            <p class="blog-post-meta">Smm, Alam. « Reviewing the Sustainability of Natural Dyes », Journal of advance 
+              research in Textile Engineering. 2020
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+
+      <h3 class="pb-4 mb-4 border-bottom" id="Livres">
+        Ouvrages
+      </h3>
+
+      <article class="blog-post filterDiv histoire-teinture" onclick ='showhide()'>
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Women’s work: the first 20,000 years, Women, Cloth, and Society in Early Times </h2> 
+            <p class="blog-post-meta">Barber, Elizabeth Jane Wayland. <a class="italic"> Women’s work: the first 20,000 years, Women, Cloth, and Society in Early Times.</a> 
+              New York, Royaume-Uni de Grande-Bretagne et d’Irlande du Nord, Etats-Unis d’Amérique, 1995.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill tags" href="#">Textile</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill tags" href="#">Histoire Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Le système des objets</h2> 
+            <p class="blog-post-meta"> Baudrillard, Jean. <a class="italic"> Le système des objets. </a>Paris, France: Denoël/Gonthier, 1968.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Couleur</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Consommation</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Textile Design : Principles, advances and applications </h2> 
+            <p class="blog-post-meta">Briggs-Goode, A., et K. Townsend. "Designing through dyeing and finishing", "The use of colour in textile design".<a class="italic">
+              Textile Design: Principles, Advances and Applications. </a> Elsevier, 2011.</p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Esthétique chromatique</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Le monde des teintures naturelles </h2> 
+            <p class="blog-post-meta">Cardon, Dominique. <a class="italic">Le monde des teintures naturelles.</a> Paris, France: Belin, 2014.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Histoire Teinture</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Chimie</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">La vie chromatique des objets </h2>
+            <p class="blog-post-meta">Dubois, Arnaud. <a class="italic">La vie chromatique des objets: une anthropologie de la 
+              couleur de l’art contemporain.</a> Turnhout, Belgique: Brepols, 2019.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Esthétique Chromatique</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">La couleur dans les activités humaines </h2> 
+            <p class="blog-post-meta">Déribéré, Maurice. <a class="italic"> La couleur dans les activités humaines.</a> 
+              Paris, France: Dunod, 1968.</p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Couleur</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Usages</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Natural dyestuffs and industrial culture in Europe, 1750-1880 </h2>
+            <p class="blog-post-meta">Fox, Robert, Agustí Nieto-Galan, et Fondation européenne de la science. <a class="italic"> 
+              Natural dyestuffs and industrial culture in Europe, 1750-1880.</a> Canton (Mass.), Etats-Unis d’Amérique: Science History Publications, 1999.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Histoire Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">The colourful past </h2>
+            <p class="blog-post-meta">Hofenk de Graaff, Judith H., W. G. Th Roelofs, et Maarten van Bommel. <a class="italic"> 
+              The colourful past: origins, chemistry and identification of natural dyestuffs.</a> Riggisberg, Suisse, 
+              Royaume-Uni de Grande-Bretagne et d’Irlande du Nord: Abegg-Stiftung, 2004.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Histoire Teinture</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Chimie</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+      
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">L'Homme et la matière </h2>
+            <p class="blog-post-meta">Leroi-Gourhan, André. <a class="italic"> L’Homme et la matière: Evolution et techniques.</a> 
+              Paris, France: Edition Albin Michel, 1993.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Technique</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Couleur</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">La couleur éloquente </h2>
+            <p class="blog-post-meta">Lichtenstein, Jacqueline. <a class="italic">La couleur éloquente: rhétorique et 
+              peinture à l’âge classique.</a>Paris, France: Flammarion, 2013.</p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Technique</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Couleur</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+     
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Jésus chez le teinturier: couleurs et teintures dans l’Occident 
+              médiéval</h2>
+            <p class="blog-post-meta">Pastoureau, Michel. <a class="italic"> Jésus chez le teinturier: couleurs et teintures dans l’Occident 
+              médiéval.</a> Paris, France: Le Léopard d’or, 1998.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Histoire Teinture</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Technique</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Une histoire symbolique du Moyen âge occidental</h2>
+            <p class="blog-post-meta">Pastoureau, Michel. "Voir les couleurs du Moyen-âge : Une histoire des couleurs
+               est-elle possible ?", "Les teinturiers médiévaux, Histoire sociale d'un métier réprouvé".<a class="italic"> 
+                Une histoire symbolique du Moyen âge occidental.</a>Paris, France: Éditions du Seuil, 2004.</p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Histoire Teinture</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Technique</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">The fabric of civilization: how textiles made the world.</h2>
+            <p class="blog-post-meta">Postrel, Virginia . <a class="italic"> The fabric of civilization: how textiles made the 
+              world.</a> New York, Etats-Unis d’Amérique: Basic Books, Hachette Book Group, 2020.</p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Histoire Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+   
+
+      <h3 class="pb-4 mb-4 border-bottom" id="Memoires">
+        Mémoires
+      </h3>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Choses difficile à dire</h2>
+            <p class="blog-post-meta">Devroëde, Marie. "Choses difficile à dire : Notes de teinture." 
+              DSAA diss., Ecole Duperre, 2022.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Couleurs et temps</h2>
+            <p class="blog-post-meta">Jacob, Manon. "Couleurs et temps : capturer, fixer, décolorer, mémoriser." 
+              Master diss., ENSCI-Les ateliers, 2022.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Esthétique Chromatique</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Solidité</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">L’utilisation de la cochenille d’Amérique dans l’atelier de teinture de la manufacture des Gobelins</h2>
+            <p class="blog-post-meta">Lerest, Gwen. "L’utilisation de la cochenille d’Amérique dans l’atelier de teinture de la manufacture des Gobelins." 
+              Master diss., Ecole du Louvre, 2017.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Histoire Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+  
+
+      <h3 class="pb-4 mb-4 border-bottom" id="Catalogues">
+        Catalogues et Livres d'art
+      </h3>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">L’Interaction des couleurs </h2>
+            <p class="blog-post-meta"> Albers, Josef, et Claude Gilbert. <a class="italic">L’Interaction des couleurs.</a> 
+              Paris, France: Hachette littérature, DL 1974, 1974.</p>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Le design au prisme de la couleur </h2>
+            <p class="blog-post-meta"> Rubini, Constance. <a class="italic"> Le design au prisme de la couleur</a>. Bordeaux, Musée des arts décoratifs et du design, 2017.
+            </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Esthétique Chromatique</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Nuancier</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Le design comme outil de transition </h2>
+            <p class="blog-post-meta">Atelier Luma, et Studio Folder. <a class="italic"> Le design comme outil de transition:
+               l’approche d’Atelier Luma.</a> Arles, France: Luma Foundation, 2019. </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Teinture</a>
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Nuancier</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Seaweed Research </h2>
+            <p class="blog-post-meta">Studio Nienke Hoogvliet. <a class="italic">Seaweed Research</a>. auto-éditions, 
+              copies numérotées, 2018 </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-9 ">
+            <h2 class="blog-post-title mb-1">Textipedia </h2>
+            <p class="blog-post-meta"><a class="italic">Textilepedia: the complete fabric guide.</a> Hong Kong, Chine: 
+              Fashionary, 2020.</p>
+
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Teinture</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+      
+
+
+      <h3 class="pb-4 mb-4 border-bottom" id="PodcastsDocumentaires">
+        Podcasts & Documentaires
+      </h3>
+
+      <article class="blog-post">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-10 ">
+            <h2 class="blog-post-title mb-1">RiverBlue </h2>
+            <p class="blog-post-meta">McIlvride, David, and Roger Williams. <a class="italic">RiverBlue</a>. Production 
+              Roger Williams et Lisa Mazzotta, 2017. 1hr,35 min. </p>
+          </div>
+          
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Soutenabilité</a>
+          </div>
+
+        </div>
+        <hr>
+        
+      </article>
+      
+          </div>
+
+    </div>
+<!-- to add vertical line ? 
+    <div class="col-md-1">
+      <div class="vr" style="height: 100%;"></div>
+    </div>
+-->
+    <div class="col-md-5">
+      <hr>
+      <!--<div class="position-sticky" style="top: 2rem;"></div>-->
+
+        
+      
+      <div style="top: 2rem;">
+        <div class="p-2 mt-3 mb-0" id="cartello">
+          <p>hello world</p>
+          <div id="barbier">
+            <h5> BARBIER, CARDON, Dominique. Paris, Belin, 2014  </h5>
+          <h5>Analyse & Abstract</h5>
+          <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Plantes</a>
+          <a class="btn btn-sm btn-outline-dark rounded-pill" href="#">Teinture</a>
+
+            <p class="mb-0">
+              Lieu pour analyse et notes de lecture sur chaque texte </p>
+          </div>
+          
+          </div>
+          
+
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="blog-footer">
+  
+  <p>Mis à jour le 01.11.2023</p>
+</footer>
+
+
+  </body>
+</html>
