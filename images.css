@@ -1,0 +1,22 @@
+.container {
+  max-width: 960px;
+}
+
+img{
+  object-fit: cover; 
+  object-position: center;
+  height: 100%;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
