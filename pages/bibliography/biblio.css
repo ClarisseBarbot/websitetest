@@ -2,15 +2,15 @@
 
 @font-face {
   font-family:'Lehigh Personal' ;
-  src: url("Lehigh-Personal-Regular.ttf");
+  src: url("/static/type/Lehigh-Personal-Regular.ttf");
  
   font-family: 'Jolyita';
-  src: url("static/type/Joly-Display-RegularItalic.ttf"); 
+  src: url("/static/type/Joly-Display-RegularItalic.ttf"); 
 }
 
 @font-face {
   font-family: 'joly';
-  src: url("Joly-Display-Regular.ttf");
+  src: url("/static/type/Joly-Display-Regular.ttf");
 }
 
 * {
