@@ -151,7 +151,7 @@ svg {
     }
    
     @media screen and (max-width: 560px) {
-     grid-template-columns: 10% 90%;
+     grid-template-columns: 100%;
     }
    
     &-part {
@@ -231,6 +231,15 @@ svg {
      @media screen and (max-width: 1030px) {
       display: none;
      }
+    }
+
+    .blog-part {
+
+        @media screen and (max-width: 560px) {
+           
+            display: none;
+           }
+          
     }
    
     &-big__title {
@@ -328,7 +337,7 @@ svg {
 }
 
 .blog-is-sticky {
-    @media screen and (max-width: 560px) {
+    @media screen and (max-width: 1030px) {
      display: none;
     }
    }
