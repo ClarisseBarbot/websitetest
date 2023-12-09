@@ -105,11 +105,13 @@
  .is-menu {
   display: flex;
   flex-direction: column;
-  
+ }
 
-  @media screen and (max-width: 1030px) {
-   display: none;
-  }
+ @media screen and (max-width: 1030px) {
+.is-menu{
+  display: none;
+}
+  
  }
 
  &-big__title {

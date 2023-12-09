@@ -233,14 +233,6 @@ svg {
      }
     }
 
-    .blog-part {
-
-        @media screen and (max-width: 560px) {
-           
-            display: none;
-           }
-          
-    }
    
     &-big__title {
      font-size: 132px;
