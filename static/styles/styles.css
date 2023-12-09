@@ -58,6 +58,12 @@ a:hover{
     text-decoration-color: rgba(233, 249, 91, 0.278) ;   
 }
 
+@media screen and (max-width: 560px) {
+    a.blog-menu{
+      display: none;
+    }
+   }
+
 body {
     background-color: white   ;
     display: flex;
@@ -227,13 +233,8 @@ svg {
      display: flex;
      flex-direction: column;
      
-   
-     @media screen and (max-width: 1030px) {
-      display: none;
-     }
     }
 
-   
     &-big__title {
      font-size: 132px;
      font-family: Jolyita;
