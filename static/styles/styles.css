@@ -59,7 +59,7 @@ a:hover{
 }
 
 body {
-    background-color: #f4f2f1   ;
+    background-color: white   ;
     display: flex;
     font-family:"Inter", sans-serif;;
     justify-content: center;
@@ -94,7 +94,7 @@ img:hover {
 
 marquee {
     font-size: 20px;
-    background-color:#f4f2f1;
+    background-color:white;
     color: rgb(47, 45, 45);
     padding:6px 0;
     width: calc(100% - 30px);
@@ -111,7 +111,7 @@ marquee {
      position: relative;
      top: -1px;
      vertical-align: baseline;
-     background-color: #e9e6e4;
+     background-color: white;
      margin: 0 16px;
     }
 }
@@ -128,7 +128,7 @@ svg {
 /* Descriptions des styles des classes */
 
 .blog {
-    background-color:#f4f2f1 ;
+    background-color:white ;
     max-width:1350px;
     display:grid;
     height:90vh;
