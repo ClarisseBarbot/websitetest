@@ -239,11 +239,13 @@
     display: none;
   }
 
-  .blog-menu {
-    @media screen and (max-width: 1030px) {
-    display: none;
+  @media screen and (max-width: 1030px) {
+    .blog-menu {
+      display: none;
     }
-  }
+    
+    }
+  
 }
 
 ::-webkit-scrollbar {
