@@ -16,7 +16,7 @@
  position:relative;
 
  @media screen and (max-width: 1030px) {
-  grid-template-columns: 20% 50% 30%;
+  grid-template-columns: 20% 0% 80%;
  }
 
  @media screen and (max-width: 768px) {
@@ -52,7 +52,7 @@
   @media screen and (max-width: 560px) {
    display: none;
    }
-
+  }
   svg {
    width: 22px;
    margin-left: 4px;
@@ -109,6 +109,9 @@
 
   @media screen and (max-width: 1030px) {
    display: none;
+
+   @media screen and (max-width: 560px) {
+    display: none;
   }
  }
 
