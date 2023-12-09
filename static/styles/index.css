@@ -26,7 +26,7 @@
  }
 
  @media screen and (max-width: 560px) {
-  grid-template-columns: 100%;
+  grid-template-columns: 0% 0% 100%;
  }
 
  &-part {
@@ -48,6 +48,10 @@
   @media screen and (max-width: 1260px) {
    font-size: 1.6vw;
   }
+
+  @media screen and (max-width: 560px) {
+   display: none;
+   }
 
   svg {
    width: 22px;
@@ -191,6 +195,7 @@
 
  @media screen and (max-width: 1030px) {
   margin-top: 5vw;
+  display: none;
  }
 }
 
