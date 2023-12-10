@@ -9,6 +9,12 @@ img {
 
 /* Description des classes */
 
+.blog-is-sticky {
+  @media screen and (max-width: 1030px) {
+   display: flex;
+  }
+ }
+
 
 /* Description des autres éléments */
 
@@ -40,3 +46,6 @@ img {
   font-family:  "Playfair Display", serif;
   font-size: 30px;
  }
+
+
+ 
