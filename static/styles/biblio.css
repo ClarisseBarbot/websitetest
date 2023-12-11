@@ -7,11 +7,11 @@ img {
     object-fit: cover;
 }
 
-btn{
+.btn{
   text-decoration: none;
 }
 
-btn:hover{
+.btn:hover{
   text-decoration: none;
 }
 
