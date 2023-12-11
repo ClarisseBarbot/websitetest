@@ -7,6 +7,14 @@ img {
     object-fit: cover;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
 
 a.right {
     font-size: 0.8rem;
