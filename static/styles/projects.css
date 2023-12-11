@@ -8,13 +8,13 @@
   }
  
   @media screen and (max-width: 768px) {
-   grid-template-columns: 25% 75%;
+   grid-template-columns: 15% 75%;
    width: 100%;
    max-width: none;
   }
  
   @media screen and (max-width: 560px) {
-   grid-template-columns: 0% 100% à0%;
+   grid-template-columns: 0% 100% 0%;
   }
 
 }
