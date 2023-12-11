@@ -8,13 +8,13 @@
   }
  
   @media screen and (max-width: 768px) {
-   grid-template-columns: 15% 75%;
+   grid-template-columns: 15% 85%;
    width: 100%;
    max-width: none;
   }
  
   @media screen and (max-width: 560px) {
-   grid-template-columns: 0% 100% 0%;
+   grid-template-columns: 2% 100% 0%;
   }
 
 }
@@ -52,12 +52,13 @@ img {
   margin-bottom: 12px;
   font-family:"Space Grotesk", sans-serif;;
 
-  /*
+  
   @media screen and (max-width: 1030px) {
    display: none;
-  }*/
+  
  }
 
+}
 &-subtitle {
   max-width: 30ch;
   font-size: 14px;
