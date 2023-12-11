@@ -393,3 +393,7 @@ svg {
 
 
 /* Description des autres éléments */
+
+::-webkit-scrollbar {
+    display: none;
+   }

@@ -1,3 +1,24 @@
+/*responsive*/
+
+
+.blog {
+ 
+  @media screen and (max-width: 1030px) {
+   grid-template-columns: 20% 80%;
+  }
+ 
+  @media screen and (max-width: 768px) {
+   grid-template-columns: 25% 75%;
+   width: 100%;
+   max-width: none;
+  }
+ 
+  @media screen and (max-width: 560px) {
+   grid-template-columns: 10% 100% 10%;
+  }
+
+}
+
 /* Description des balises */
 
 img {
@@ -18,11 +39,12 @@ img {
 
 /* Description des autres éléments */
 
+/*
 ::-webkit-scrollbar {
  display: none;
 }
 
-
+*/
  
 &-title {
   font-size: 24px;
@@ -30,9 +52,10 @@ img {
   margin-bottom: 12px;
   font-family:"Space Grotesk", sans-serif;;
 
+  /*
   @media screen and (max-width: 1030px) {
    display: none;
-  }
+  }*/
  }
 
 &-subtitle {
