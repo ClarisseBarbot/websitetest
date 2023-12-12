@@ -55,6 +55,8 @@ a.right {
 
 .italic{
   display:inline;
+  font-family: Jolyita;
+  font-size: x-small;
 }
   
 .b-example-vr {
