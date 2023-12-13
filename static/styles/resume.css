@@ -3,6 +3,10 @@ h2{
     border-top: 1px solid #94918f;
 }
 
+p{
+    font-size: 0.8 em;
+}
+
 /*class*/
 
 .underline{
