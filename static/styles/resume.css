@@ -3,6 +3,7 @@ h2{
     border-top: 1px solid #94918f;
 }
 
+
 p{
     font-size: 0.7em;
 }
@@ -14,4 +15,8 @@ p{
     text-decoration-thickness: 8px;
     text-decoration-color: rgba(233, 249, 91, 0.278) ; 
     display: inline;
+}
+
+.noborder{
+    border-top: 0px solid #94918f;
 }
