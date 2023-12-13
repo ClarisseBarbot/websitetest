@@ -2,3 +2,11 @@ h2{
     padding-top: 14px;  
     border-top: 1px solid #94918f;
 }
+
+/*class*/
+
+.underline{
+    text-decoration: line-through;
+    text-decoration-thickness: 8px;
+    text-decoration-color: rgba(233, 249, 91, 0.278) ; 
+}
