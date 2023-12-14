@@ -11,14 +11,23 @@ p{
 
 /*class*/
 
+
+.noborder{
+    border-top: 0px solid #94918f;
+}
+
+
+.portfolio{
+    text-decoration: none;
+}
+
+.portfolio:hover{
+    text-decoration: none;
+}
+
 .underline{
     text-decoration: line-through;
     text-decoration-thickness: 8px;
     text-decoration-color: rgba(233, 249, 91, 0.278) ; 
     display: inline;
 }
-
-.noborder{
-    border-top: 0px solid #94918f;
-}
-
