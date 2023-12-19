@@ -53,11 +53,6 @@ a.right {
 }
 */
 
-.italic{
-  display:inline;
-  font-family: Jolyita;
-  font-size: 1em;
-}
   
 .b-example-vr {
   flex-shrink: 0;
@@ -68,6 +63,12 @@ a.right {
 .bi {
   vertical-align: -.125em;
   fill: currentColor;
+}
+
+.italic{
+  display:inline;
+  font-family: Jolyita;
+  font-size: 1em;
 }
   
 .nav-scroller {
@@ -86,6 +87,12 @@ a.right {
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+}
+
+.titre{
+  font-size: 1.5em;
+  font-family: jolyita;
+  
 }
   
 @media (max-width : 1000px){
