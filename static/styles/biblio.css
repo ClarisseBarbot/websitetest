@@ -94,6 +94,10 @@ a.right {
   font-family: jolyita;
 
 }
+
+.labeur{
+  font-size: 0.8em;
+}
   
 @media (max-width : 1000px){
   .nav{
