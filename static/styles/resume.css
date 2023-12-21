@@ -37,4 +37,6 @@ a.underline{
 
 a.download{
     border-top: 0px solid #94918f;
+    margin: 0;
+    padding: 0;
 }
