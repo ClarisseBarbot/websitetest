@@ -34,3 +34,7 @@ a.underline{
     display: inline;
     border-top: 0px solid #94918f;
 }
+
+a.download{
+    border-top: 0px solid #94918f;
+}
