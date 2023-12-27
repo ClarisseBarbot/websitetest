@@ -390,6 +390,12 @@ svg {
     margin-bottom: 6px;
 }
 
+.biblio{
+    text-decoration: line-through;
+    text-decoration-thickness: 8px;
+    text-decoration-color: rgba(233, 249, 91, 0.278) ; 
+}
+
 /* Description des styles des ids */
 
 
