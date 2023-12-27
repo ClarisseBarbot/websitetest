@@ -5,6 +5,7 @@
   
   @media screen and (max-width: 560px) {
    grid-template-columns: 2% 96% 2%;
+   font-size: 14px;
   }
 
 }
@@ -22,6 +23,9 @@
   }
   .btn{
     display: none;
+  }
+  .grostitre{
+    font-size: 5em;
   }
 }
   
