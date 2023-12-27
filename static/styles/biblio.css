@@ -1,24 +1,14 @@
 /*responsive*/
 
-/*
+
 .blog {
- 
-  @media screen and (max-width: 1030px) {
-   grid-template-columns: 20% 80%;
-  }
- 
-  @media screen and (max-width: 768px) {
-   grid-template-columns: 15% 85%;
-   width: 100%;
-   max-width: none;
-  }
- 
+  
   @media screen and (max-width: 560px) {
    grid-template-columns: 2% 96% 2%;
   }
 
 }
-*/
+
 
 @media (max-width : 1000px){
   .nav{
