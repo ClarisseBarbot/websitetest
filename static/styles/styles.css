@@ -303,6 +303,7 @@ svg {
         padding-top: 0;  
         letter-spacing: 0px;
         font-size: 1em;
+        display: inline;
 
     }
 }
