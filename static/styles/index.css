@@ -244,11 +244,6 @@
   }
 }
 
-a.img {
-  max-width: 100%;
-  max-height: 270px;
-  object-fit: cover;
-}
 
 .circle {
   width: 100%;
