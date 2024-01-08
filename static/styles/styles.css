@@ -95,7 +95,7 @@ img {
 }
    
 img:hover {
-    filter: none;
+    filter:blur(50%);
 }
 
 marquee {
