@@ -83,6 +83,11 @@ a.right {
 
 /* Description des classes */
 /* styles utiles pour le filtrage */
+
+.moyentitre{
+  font-size: 2em;
+}
+
 .hidden {
     display: none;
   }
