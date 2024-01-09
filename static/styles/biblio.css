@@ -85,7 +85,8 @@ a.right {
 /* styles utiles pour le filtrage */
 
 .moyentitre{
-  font-size: 2em;
+  font-size: 3em;
+  font-family: Jolyita;
 }
 
 .hidden {
