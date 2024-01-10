@@ -30,6 +30,11 @@ img {
 
 /* Description des classes */
 
+.moyentitre{
+  font-size: 3.5em;
+  font-family: Jolyita;
+}
+
 .blog-is-sticky {
   @media screen and (max-width: 1030px) {
    display: flex;
