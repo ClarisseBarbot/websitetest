@@ -198,10 +198,10 @@
 }
 
 .blog-right-page {
- font-size: 30px;
+ font-size: 25px;
  margin-bottom: 16px;
  /*font-family: "Space Grotesk", sans-serif;;*/
- font-weight: 100;
+ 
 
  &-title {
  /* font-family:"Space Grotesk", sans-serif;;*/
