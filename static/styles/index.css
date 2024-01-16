@@ -200,11 +200,11 @@
 .blog-right-page {
  font-size: 30px;
  margin-bottom: 16px;
- font-family: "Space Grotesk", sans-serif;;
+ /*font-family: "Space Grotesk", sans-serif;;*/
  font-weight: 100;
 
  &-title {
-  font-family:"Space Grotesk", sans-serif;;
+ /* font-family:"Space Grotesk", sans-serif;;*/
   font-size: 28px;
   font-weight: 600;
   max-width: 16ch;
