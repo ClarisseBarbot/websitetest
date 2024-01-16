@@ -271,10 +271,13 @@ svg {
 
 .blog-article {
     h2 {
-     font-size: 26px;
+        font-size: 30px;
+ margin-bottom: 16px;
+ font-family: "Space Grotesk", sans-serif;;
+    /* font-size: 26px;
      font-weight: 500;
      line-height: 1.2;
-     margin: 8px 0 8px;
+     margin: 8px 0 8px;*/
     }
    
     p {
