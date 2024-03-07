@@ -12,6 +12,10 @@
     }
   
   }
+
+p{
+    font-size: 11px;
+  }
   
   
   @media (max-width : 1000px){
