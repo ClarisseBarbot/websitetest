@@ -408,6 +408,10 @@ svg {
     text-decoration-color: rgba(233, 249, 91, 0.278) ; 
 }
 
+.sous-titre {
+    font-size: 12px;
+}
+
 /* Description des styles des ids */
 
 
