@@ -2,9 +2,12 @@
 
 
 .blog {
-  
+   
+        grid-template-columns:15% 45% 30%;
+        grid-template-rows:100%;
+        
     @media screen and (max-width: 560px) {
-     grid-template-columns: 2% 20% 30%;
+     grid-template-columns: 2% 96% 2%;
      font-size: 14px;
     }
   
