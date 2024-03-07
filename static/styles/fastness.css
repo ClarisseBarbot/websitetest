@@ -16,6 +16,10 @@
 p{
     font-size: 11px;
   }
+
+h3{
+    font-size: 1.5em;
+}
   
   
   @media (max-width : 1000px){
