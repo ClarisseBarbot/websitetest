@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:'cako' ;
-    src: url("cako-regular.ttf");
+    src: url("../static/type/cako-regular.ttf");
   }
   
  
@@ -21,6 +21,6 @@ div {
     width: 100%; /* Pour s'assurer qu'il est responsive */
 }
 
-a{
-    font-family: cako;
+a {
+    font-family: cako, ;
 }
