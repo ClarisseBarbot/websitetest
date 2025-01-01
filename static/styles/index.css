@@ -41,10 +41,10 @@
   font-size: 22px;
   text-decoration: none;
   color: #161419;
-  display: flex;
   letter-spacing: -0.5px;
-  align-items: flex-end;
-  justify-content: baseline;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   @media screen and (max-width: 1260px) {
    font-size: 1.6vw;
