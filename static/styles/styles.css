@@ -14,12 +14,10 @@ body {
     align-items: center; /* Centre verticalement */
     height: 100vh; /* Hauteur de la fenêtre */
     text-align: center; /* Centre le texte dans son conteneur */
+    font-family: cako;
 }
 
 div {
     width: 100%; /* Pour s'assurer qu'il est responsive */
 }
 
-a {
-    font-family: cako;
-}
