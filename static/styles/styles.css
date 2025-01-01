@@ -1,16 +1,10 @@
 
 @font-face {
-    font-family:'Lehigh Personal' ;
-    src: url("Lehigh-Personal-Regular.ttf");
-   
-    font-family: 'Jolyita';
-    src: url("/static/type/Joly-Display-RegularItalic.ttf"); 
+    font-family:'cako' ;
+    src: url("cako-regular.ttf");
   }
   
-  @font-face {
-    font-family: 'joly';
-    src: url("/static/type/Joly-Display-Regular.ttf");
-  }
+ 
 
 body {
     margin: 0; /* Supprime les marges par défaut */
@@ -22,6 +16,11 @@ body {
     text-align: center; /* Centre le texte dans son conteneur */
     font-family: Arial, sans-serif; /* Optionnel : choix de police */
 }
+
 div {
     width: 100%; /* Pour s'assurer qu'il est responsive */
+}
+
+.a{
+    font-family: cako;
 }
