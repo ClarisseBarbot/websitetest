@@ -175,6 +175,7 @@ svg {
      display: flex;
      letter-spacing: -0.5px;
      align-items: flex-end;
+     justify-content: flex-start;
    
      @media screen and (max-width: 1260px) {
       font-size: 1.6vw;
