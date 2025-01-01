@@ -43,11 +43,12 @@
   color: #161419;
   display: flex;
   letter-spacing: -0.5px;
-  align-items: center;
+  align-items: bottom;
 
   @media screen and (max-width: 1260px) {
    font-size: 1.6vw;
   }
+
 
   @media screen and (max-width: 560px) {
    display: none;
