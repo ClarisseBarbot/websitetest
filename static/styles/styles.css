@@ -1,0 +1,13 @@
+body {
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0;
+    display: flex; /* Active Flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh; /* Hauteur de la fenêtre */
+    text-align: center; /* Centre le texte dans son conteneur */
+    font-family: Arial, sans-serif; /* Optionnel : choix de police */
+}
+div {
+    width: 100%; /* Pour s'assurer qu'il est responsive */
+}
