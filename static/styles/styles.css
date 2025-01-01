@@ -14,7 +14,6 @@ body {
     align-items: center; /* Centre verticalement */
     height: 100vh; /* Hauteur de la fenêtre */
     text-align: center; /* Centre le texte dans son conteneur */
-    font-family: Arial, sans-serif; /* Optionnel : choix de police */
 }
 
 div {
