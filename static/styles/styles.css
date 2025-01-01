@@ -174,7 +174,7 @@ svg {
      color: #161419;
      display: flex;
      letter-spacing: -0.5px;
-     align-items: bottom;
+     align-items: flex-end;
    
      @media screen and (max-width: 1260px) {
       font-size: 1.6vw;
