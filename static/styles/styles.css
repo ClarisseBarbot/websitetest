@@ -17,6 +17,10 @@ body {
     font-family: cako;
 }
 
+p{
+    
+}
+
 div {
     width: 100%; /* Pour s'assurer qu'il est responsive */
 }
