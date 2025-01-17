@@ -8,6 +8,11 @@
 
 body {
     background-image:url("../iconographies/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
     margin: 0; /* Supprime les marges par défaut */
     padding: 0;
     display: flex; /* Active Flexbox */
