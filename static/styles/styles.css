@@ -7,6 +7,7 @@
  
 
 body {
+    background-image:url("../iconographies/background.jpg");
     margin: 0; /* Supprime les marges par défaut */
     padding: 0;
     display: flex; /* Active Flexbox */
