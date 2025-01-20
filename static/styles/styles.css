@@ -21,11 +21,15 @@ body {
     height: 100vh; /* Hauteur de la fenêtre */
     text-align: center; /* Centre le texte dans son conteneur */
     font-family: cako;
-    color: #1DD767;
+    
 }
 
-p{
-    
+.nom{
+    color: #1DD767;
+    width: 1512px;
+    height: 28px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
 }
 
 div {
