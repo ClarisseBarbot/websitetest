@@ -2,6 +2,10 @@
 @font-face {
     font-family:'cako' ;
     src: url("../../static/types/cako-regular.ttf");
+
+    font-family: 'cako-italique';
+    src: url("../../static/types/cako-regularitalic.ttf");
+
   }
   
  
@@ -11,15 +15,13 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
     overflow: hidden; /* Prevent scrolling */
     position: relative;
     margin: 0; /* Supprime les marges par défaut */
     padding: 0;
     height: 100vh; /* Hauteur de la fenêtre */
-    font-family: cako;
-    
+    width: 100vw;
+    font-family: cako; 
 }
 
 body::-webkit-scrollbar {
@@ -28,16 +30,39 @@ body::-webkit-scrollbar {
 
 #nom{
     color: #1DD767;
-    width: 390vh;
-    height: 30vh;
-    transform: rotate(90deg);
+    position: absolute; /* Permet de positionner l'élément par rapport à son conteneur */
+    top: 0vh; /* Définit la distance entre le haut de l'écran et la div */
+    right: 1.5vw; /* Définit la distance entre le côté droit de l'écran et la div */
+    width: 162px;
+    height: 28px;
+    transform: rotate(270deg);
+    transform-origin: bottom right; 
+    padding: 0;
+    text-align: right;
 }
 
-div {
-    width: 100%; /* Pour s'assurer qu'il est responsive */
+.main {
+    width: 100vw; /* Pour s'assurer qu'il est responsive */
+    height: 100vh;
     display: flex; /* Active Flexbox */
+}
+
+.menu {
+    display: flex; /* Active Flexbox */
+    width: 100vw; /* Pour s'assurer qu'il est responsive */
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
     text-align: center; /* Centre le texte dans son conteneur */
+    -webkit-text-stroke: 0.5px #1DD767; /* Applique un contour de 2px de couleur noire */
+    color: rgba(0, 0, 0, 0);
+    font-size: 20vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164px; /* 170.833% */
+    text-transform: lowercase;
+}
+
+.menu :hover {
+    font-family: cako-italique;
 }
 
