@@ -8,7 +8,7 @@
   }
 
 body {
-    background-color:white;
+    background-color:black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,9 +51,33 @@ body::-webkit-scrollbar {
     height: 90vh;
   }  
 
+.carousel-control-next , .carousel-control-prev {
+    filter: invert(100%); /* Rend l'icône blanche en noir ou inverse les couleurs */
+  }
+
+.carousel-inner .carousel-item:nth-child(6) img { /* Change l'image de la 2e slide */
+    width: auto;
+    height: 50vh; /* Garde les proportions */
+    margin: auto; /* Centre l'image */
+    position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  .carousel-inner .carousel-item:nth-child(1) img { /* Change l'image de la 2e slide */
+    width: auto;
+    height: 90vh; /* Garde les proportions */
+    margin: auto; 
+    position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
 
 #nom{
-    color:black;
+    color:white;
     position: absolute; /* Permet de positionner l'élément par rapport à son conteneur */
     top: 0vh; /* Définit la distance entre le haut de l'écran et la div */
     right: 1.5vw; /* Définit la distance entre le côté droit de l'écran et la div */
@@ -75,15 +99,15 @@ body::-webkit-scrollbar {
 
 .nom-link {
     text-decoration: none; /* Supprime le soulignement */
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .nom :hover {
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 #langue{
-    color:black;
+    color:white;
     text-decoration: none;
     position: absolute; /* Permet de positionner l'élément par rapport à son conteneur */
     top: 95vh; /* Définit la distance entre le haut de l'écran et la div */
@@ -100,7 +124,7 @@ body::-webkit-scrollbar {
 .langue-link {
     text-decoration: none; /* Supprime le soulignement */
     color: transparent; /* Rend le texte transparent */
-    color: black;
+    color: white;
 }
 
 .langue-link  :hover {
