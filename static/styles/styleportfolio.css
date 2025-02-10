@@ -1,0 +1,108 @@
+@font-face {
+    font-family:'cako' ;
+    src: url("../../static/types/cako-regular.ttf");
+
+    font-family: 'cako-italique';
+    src: url("../../static/types/cako-regularitalic.ttf");
+
+  }
+
+body {
+    background-color:white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; /* Prevent scrolling */
+    position: relative;
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0;
+    height: 100vh; /* Hauteur de la fenêtre */
+    width: 100vw; 
+}
+
+
+body::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }
+
+
+#carouselExample {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+
+.carousel-inner, .carousel-item {
+    width: 100%;
+    height: 100vh;
+    margin: 1em 1em 1em 1em;
+  }
+
+.carousel-inner {
+    transition: none;
+}
+
+.carousel-item img {
+    object-fit: contain;
+    width: 100%;
+    height: 90vh;
+  }  
+
+
+#nom{
+    color:black;
+    position: absolute; /* Permet de positionner l'élément par rapport à son conteneur */
+    top: 0vh; /* Définit la distance entre le haut de l'écran et la div */
+    right: 1.5vw; /* Définit la distance entre le côté droit de l'écran et la div */
+    width: 162px;
+    height: 28px;
+    transform: rotate(270deg);
+    transform-origin: bottom right; 
+    padding: 0;
+    text-align: right;
+    font-family: cako;
+}
+
+.nom{
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.nom-link {
+    text-decoration: none; /* Supprime le soulignement */
+    color: black;
+}
+
+.nom :hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#langue{
+    color:black;
+    text-decoration: none;
+    position: absolute; /* Permet de positionner l'élément par rapport à son conteneur */
+    top: 95vh; /* Définit la distance entre le haut de l'écran et la div */
+    right: 1.5vw; /* Définit la distance entre le côté droit de l'écran et la div */
+    width: 162px;
+    height: 28px;
+    padding: 0;
+    text-align: right ;
+    font-family: cako;
+}
+
+
+
+.langue-link {
+    text-decoration: none; /* Supprime le soulignement */
+    color: transparent; /* Rend le texte transparent */
+    color: black;
+}
+
+.langue-link  :hover {
+    font-family: cako-italique;
+}

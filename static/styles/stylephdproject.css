@@ -1,0 +1,92 @@
+body{
+    background-color: white;
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0;
+    min-height: 100vh; /* Hauteur de la fenêtre */
+    min-width: 100vw; 
+
+}
+
+body::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }
+
+
+p{
+    font-size: 1.7vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 10vh;
+    font-family: 'cako';
+    padding-bottom: 0.5vh;
+}
+
+h2{
+    font-size: 2.1vh;
+    font-family: cako-italique;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 2vh;
+}
+
+h3{
+    padding-top: 10px ;
+    font-family: Arial;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+nav{
+    padding: 20px;
+    font-family: cako;
+    font-size: 2vh;
+    margin-bottom: 1.9vh;
+}
+
+section{
+    padding-top: 10px;
+    border-bottom: 0.5px solid black;
+}
+
+ul{
+    font-size: 1.7vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style: square;
+}
+
+.container{
+    padding: 20px;
+}
+
+.left{
+    padding: 20px;
+}
+
+.blog-left-container{
+    
+    border-right: 0.5px solid black;
+}
+
+.right{
+    margin-left:0 ;
+}
+
+.lefttext{
+    font-size: 1.8vh;
+    padding: 0.5vh 0px 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: black;
+  }

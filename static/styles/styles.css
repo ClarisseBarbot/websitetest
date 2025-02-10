@@ -11,10 +11,11 @@
  
 
 body {
-    background-image:url("../iconographies/background.jpg");
+    /*background-image:url("../iconographies/background.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    background-color: white;
     overflow: hidden; /* Prevent scrolling */
     position: relative;
     margin: 0; /* Supprime les marges par défaut */
@@ -28,7 +29,6 @@ body::-webkit-scrollbar {
   }
 
 #nom{
-    color: #1DD767;
     position: absolute; /* Permet de positionner l'élément par rapport à son conteneur */
     top: 0vh; /* Définit la distance entre le haut de l'écran et la div */
     right: 1.5vw; /* Définit la distance entre le côté droit de l'écran et la div */
@@ -41,6 +41,18 @@ body::-webkit-scrollbar {
     font-family: cako;
 }
 
+.nom-link {
+    text-decoration: none; /* Supprime le soulignement */
+    /*color: #1DD767;*/
+    color: black;
+}
+
+.nom :hover {
+    /*color: rgb(29,215,103,0.6);*/
+    color: rgba(0, 0, 0, 0.627);
+}
+
+
 .main {
     width: 100vw; /* Pour s'assurer qu'il est responsive */
     height: 100vh;
@@ -49,21 +61,28 @@ body::-webkit-scrollbar {
 
 .menu {
     display: flex; /* Active Flexbox */
+    flex-direction: column; /* Affiche les éléments du menu de haut en bas */
     width: 100vw; /* Pour s'assurer qu'il est responsive */
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
     text-align: center; /* Centre le texte dans son conteneur */
-    -webkit-text-stroke: 0.5px #1DD767; /* Applique un contour de 2px de couleur noire */
-    color: rgba(0, 0, 0, 0);
     font-size: 20vh;
     font-style: normal;
     font-weight: 400;
-    line-height: 164px; /* 170.833% */
+    line-height: 1;
     text-transform: lowercase;
     font-family: cako;
 }
 
 .menu :hover {
     font-family: cako-italique;
+}
+
+.menu-link  {
+    text-decoration: none; /* Supprime le soulignement */
+    color: transparent; /* Rend le texte transparent */
+    /*-webkit-text-stroke: 0.5px #1DD767; /* Applique un contour de 0.5px de couleur verte */
+    -webkit-text-stroke: 0.9px black;
+
 }
 

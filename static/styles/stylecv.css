@@ -1,0 +1,94 @@
+
+body{
+    background-image:none;
+}
+
+h2{
+    font-family: cako;
+    font-size: 2.5vh;
+    padding: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+h3{
+    font-style: oblique;
+    font-size: 1.9vh;
+    font-weight: 500;
+    padding: 10px 0px 0px 1px;
+    margin: 0px 0px 0px 0px;
+}
+
+p{
+    font-size: 1.5vh;
+    padding: 0px 0px 0px 0px;
+    margin: 1px 0px 0px 0px;
+    font-feature-settings: "ss03";
+}
+
+.back-link {
+    position: absolute;
+    top: 1.5vh;
+    left: 1.5vw;
+    text-decoration: none;
+    color: black;
+    font-family: cako;
+    font-size: 16px;
+  }
+  
+  .back-link:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+
+.container {
+    padding: 20px;
+}
+
+
+
+
+.nom-link {
+    text-decoration: none; /* Supprime le soulignement */
+    color: black;
+}
+
+.nom :hover {
+    color: rgb(0,0,0,0.6);
+}
+
+.row{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.right{
+    padding: 1vh 0px 0px 0px;
+}
+
+
+
+#langue{
+    color:black;
+    text-decoration: none;
+    position: absolute; /* Permet de positionner l'élément par rapport à son conteneur */
+    top: 95vh; /* Définit la distance entre le haut de l'écran et la div */
+    right: 1.5vw; /* Définit la distance entre le côté droit de l'écran et la div */
+    width: 162px;
+    height: 28px;
+    padding: 0;
+    text-align: right ;
+    font-family: cako;
+}
+
+
+
+.langue-link {
+    text-decoration: none; /* Supprime le soulignement */
+    color: transparent; /* Rend le texte transparent */
+    color: black;
+}
+
+.langue-link  :hover {
+    font-family: cako-italique;
+}
