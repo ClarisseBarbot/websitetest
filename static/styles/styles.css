@@ -6,6 +6,12 @@
     font-family: 'cako-italique';
     src: url("../../static/types/cako-regularitalic.ttf");
 
+    font-family: 'joly';
+    src: url("../../static/types/JolyRegular.otf");
+
+    font-family: 'joly-italique';
+    src: url("../../static/types/JolyRegularItalic.otf");
+
   }
   
  
@@ -75,7 +81,7 @@ body::-webkit-scrollbar {
 }
 
 .menu :hover {
-    font-family: cako-italique;
+    font-family: joly-italique;
 }
 
 .menu-link  {
