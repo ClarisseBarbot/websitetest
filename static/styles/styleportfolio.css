@@ -8,7 +8,7 @@
   }
 
 body {
-    background-color:black;
+    background-color:white;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@ body::-webkit-scrollbar {
 
 
 #nom{
-    color:white;
+    color:black;
     position: absolute; /* Permet de positionner l'élément par rapport à son conteneur */
     top: 0vh; /* Définit la distance entre le haut de l'écran et la div */
     right: 1.5vw; /* Définit la distance entre le côté droit de l'écran et la div */
@@ -99,15 +99,15 @@ body::-webkit-scrollbar {
 
 .nom-link {
     text-decoration: none; /* Supprime le soulignement */
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .nom :hover {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 #langue{
-    color:white;
+    color:black;
     text-decoration: none;
     position: absolute; /* Permet de positionner l'élément par rapport à son conteneur */
     top: 95vh; /* Définit la distance entre le haut de l'écran et la div */
