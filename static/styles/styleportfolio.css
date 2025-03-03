@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
   }  
 
 .carousel-control-next , .carousel-control-prev {
-    filter: invert(100%); /* Rend l'icône blanche en noir ou inverse les couleurs */
+    /*filter: invert(100%);  Rend l'icône blanche en noir ou inverse les couleurs */
   }
 
 .carousel-inner .carousel-item:nth-child(6) img { /* Change l'image de la 2e slide */
