@@ -49,7 +49,7 @@ a.italic {
 }
  
 .blog{
- overflow-y: auto;
+    overflow-y: hidden;
     overflow-x: hidden;
     height: 100%;
     display: flex;
