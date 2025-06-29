@@ -67,7 +67,7 @@ a.italic {
 }
 
 .center{
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
 .menu{
