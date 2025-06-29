@@ -66,6 +66,9 @@ a.italic {
     scroll-snap-type: y mandatory;
 }
 
+.center{
+    overflow-y: auto;
+}
 
 .menu{
     margin-bottom: 1.9vh;
