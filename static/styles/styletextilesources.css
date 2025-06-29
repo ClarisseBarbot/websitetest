@@ -82,6 +82,9 @@ a.italic {
     background: none;
 }*/
 
+.biblio{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .content {
     min-height: 100vh;
