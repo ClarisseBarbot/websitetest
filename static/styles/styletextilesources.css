@@ -51,12 +51,9 @@ a.italic {
 }
 
 .blog{
- display:grid;
  height:90vh;
  max-height:800px;
  overflow:hidden;
- width:100%;
- padding:40px 4px;
  position:relative;
 }
 
