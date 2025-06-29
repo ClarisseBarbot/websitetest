@@ -58,14 +58,12 @@ a.italic {
 }
 
 .blog-header-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
     height: 100%;
     display: flex;
     flex-direction: column;
     scroll-snap-type: y mandatory;
-}
-
-.center{
-    overflow-y: scroll;
 }
 
 .menu{
