@@ -49,10 +49,10 @@ a.italic {
  justify-content: flex-end;
  
 }
- /*
-.blog{
  
-}*/
+.blog{
+ overflow-y: auto;
+}
 
 .menu{
     margin-bottom: 1.9vh;
