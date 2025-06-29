@@ -7,6 +7,7 @@ body {
     padding: 0;
     min-height: 100vh; /* Hauteur de la fenêtre */
     min-width: 100vw; 
+    overflow:hidden;
   }
 
   body::-webkit-scrollbar {
@@ -102,9 +103,7 @@ a.italic {
     min-height: 100vh;
   }
 
-.left{
-    overflow: hidden;
-}
+
 .right,.left, .center{
     padding: 20px 20px 20px 20px;
 }
