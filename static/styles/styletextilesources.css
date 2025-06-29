@@ -7,7 +7,6 @@ body {
     padding: 0;
     min-height: 100vh; /* Hauteur de la fenêtre */
     min-width: 100vw; 
-    overflow:hidden;
   }
 
   body::-webkit-scrollbar {
