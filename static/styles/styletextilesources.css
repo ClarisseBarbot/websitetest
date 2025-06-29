@@ -102,6 +102,9 @@ a.italic {
     min-height: 100vh;
   }
 
+.left{
+    overflow: hidden;
+}
 .right,.left, .center{
     padding: 20px 20px 20px 20px;
 }
