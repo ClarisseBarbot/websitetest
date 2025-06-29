@@ -7,7 +7,7 @@ body {
     padding: 0;
     min-height: 100vh; /* Hauteur de la fenêtre */
     min-width: 100vw; 
-    overflow:hidden;
+   /* overflow:hidden;*/
   }
 
   body::-webkit-scrollbar {
@@ -60,6 +60,7 @@ a.italic {
 .blog-header-container {
     overflow-y: auto;
     overflow-x: hidden;
+    height: 100%;
     display: flex;
     flex-direction: column;
     scroll-snap-type: y mandatory;
