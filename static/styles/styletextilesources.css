@@ -13,11 +13,11 @@ body {
   body::-webkit-scrollbar {
     display: none; /* For Chrome, Safari, and Edge */
   }
-
+  /*
    .blog-header-container ::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Edge */
+    display: none; /* For Chrome, Safari, and Edge 
   }
-
+*/
 ul{
     padding: 0;
     margin: 0;
@@ -58,7 +58,7 @@ a.italic {
 }
 
 .blog-header-container {
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     height: 100%;
     display: flex;
