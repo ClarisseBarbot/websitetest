@@ -136,11 +136,11 @@ a.italic {
 }
 
 
-.lineleft, .lineright{
+.lineleft {
     height: 100%;
-    padding: 0vh 0vw 0vh 0vw ;
     border-left: 0.5px solid black ;
 }
+
 
 .lineright {
     height: 100%;
