@@ -117,7 +117,7 @@ a.italic {
 }
 
 .sidebar {
-    position: sticky;
+    position: fixed;
 }
 
 .right{
