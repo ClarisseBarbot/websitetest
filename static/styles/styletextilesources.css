@@ -66,6 +66,11 @@ a.italic {
  
 }
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8vh;
+}
+
 .blog-header-container {
     overflow-y: auto;
     overflow-x: hidden;
@@ -79,10 +84,7 @@ a.italic {
     margin-bottom: 1.9vh;
 }
 
-.tissage{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8vh;
-}
+
 
 .lien{
     font-family: cako-italic;
@@ -93,6 +95,10 @@ a.italic {
 .btn {
     border: 0.5px solid black;
     margin: 10px 10px 10px 10px;
+}
+
+.btn :hover{
+    background-color:yellow;
 }
  /*
 .btn-custom {
