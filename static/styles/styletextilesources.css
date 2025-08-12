@@ -100,7 +100,7 @@ p{
     background-color: aqua;
 }
 
-.btn, .btn-outline-dark :hover{
+.btn-outline-dark :hover{
     background-color: orange;
 }
  /*
