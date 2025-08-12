@@ -120,12 +120,6 @@ a.italic {
     position: fixed;
 }
 
-.sous-titre {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 5vh;
-    text-indent: 1em;
-}
-
 .right{
     padding-right: 2vw;
 }
@@ -153,13 +147,18 @@ a.italic {
     border-right: 0.5px solid black ;
 }
 
-  .sidebar a {
+.sidebar a {
     display: block;
     text-decoration: none;
     color: black;
     font-size: 20px;
-    
-  }
+    }
+
+.sous-titre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vh;
+    text-indent: 1em;
+}
 
   .section {
     padding: 0px 0px 0px 2vw;
