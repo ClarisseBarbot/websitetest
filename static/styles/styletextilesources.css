@@ -109,10 +109,6 @@ p, ul{
     margin: 10px 10px 10px 10px;
 }
 
-.btn-outline-dark :hover{
-    color: white !important;
-}
-
  /*
 .btn-custom {
     border: 0.5px solid black;
@@ -186,10 +182,19 @@ p, ul{
     margin: 0px 0px 0px 0vw;
 }
 
-  .section {
+.section {
     padding: 0px 0px 0px 2vw;
     margin-bottom: 30px;
   }
+
+.soussection {
+    padding: 0px 0px 0px 2vw;
+    margin-bottom: 2px;
+  }
+
+.soussoussection{
+    margin-top: 2vh;
+}
 
 .linebottom{
     padding: 15px;
@@ -202,7 +207,6 @@ p, ul{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-  
 .projet{
     text-decoration: none;
     color: #000;
