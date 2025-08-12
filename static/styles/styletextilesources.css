@@ -98,7 +98,7 @@ p{
     margin: 10px 10px 10px 10px;
 }
 
-.btn :hover{
+.btn, .btn-outline-dark :hover{
     background-color:yellow;
 }
  /*
