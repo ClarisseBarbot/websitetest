@@ -97,10 +97,11 @@ p{
 .btn {
     border: 0.5px solid black;
     margin: 10px 10px 10px 10px;
+    background-color: aqua;
 }
 
 .btn, .btn-outline-dark :hover{
-    background-color:yellow;
+    background-color: orange;
 }
  /*
 .btn-custom {
