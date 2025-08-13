@@ -11,7 +11,7 @@ a.italic {
 
 body {
     background-color: white;
-    font-family: 'cako', Arial, sans-serif;
+    /*font-family: 'cako', Arial, sans-serif;*/
     margin: 0; /* Supprime les marges par défaut */
     padding: 0;
     min-height: 100vh; /* Hauteur de la fenêtre */
