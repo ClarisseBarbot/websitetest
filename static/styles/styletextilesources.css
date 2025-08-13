@@ -138,6 +138,11 @@ p, ul, a{
   object-fit: cover;
 }
 
+.img-weave {
+    width: 100%;
+  object-fit: cover;
+}
+
 .card{
   border: 0.5px solid black; 
 }
@@ -165,6 +170,13 @@ p, ul, a{
     position: fixed;
 }
 
+.scrollable-column {
+  height: 100vh; /* or use vh like 80vh */
+  overflow-y: auto;
+  scrollbar-width: none;       /* Firefox */
+  -ms-overflow-style: none;    /* Internet Explorer 10+ */
+}
+
 .right{
     padding-right: 2vw;
 }
@@ -187,7 +199,7 @@ p, ul, a{
 
 
 .lineleft {
-    height: 100%;
+    min-height: 100%;
     border-left: 0.5px solid black ;
 }
 
