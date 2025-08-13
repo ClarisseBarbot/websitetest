@@ -203,6 +203,7 @@ h5 {
 
 .card {
   border: 0.5px solid black;
+  height: 20vh;
 }
 
 .card-img-right {
