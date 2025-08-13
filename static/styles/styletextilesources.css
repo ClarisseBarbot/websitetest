@@ -1,129 +1,208 @@
-  
-a{
-    text-decoration: none;
-    color: black;
+/* ===========================
+   Base Reset & Typography
+=========================== */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'cako', Arial, sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: auto;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
 }
 
 a.italic {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+  font-style: italic;
 }
 
-body {
-    background-color: white;
-    font-family: 'cako', Arial, sans-serif;
-    margin: 0; /* Supprime les marges par défaut */
-    padding: 0;
-    overflow: auto; /* Prevent scrolling */
-    min-height: 100vh; /* Hauteur de la fenêtre */
-    min-width: 100vw; 
-   /* overflow:hidden;*/
-  }
-
-  body::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Edge */
-  }
-  /*
-   .blog-header-container ::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Edge 
-  }
-*/
-ul{
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-
-h2{
-    font-size: 1.8vh;
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 0.5px solid black;
-    margin-bottom: 3vh;
-    padding-bottom: 0.5vh;
+p, ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
 }
 
-h3{
-    font-size: 2vh;
-    font-family: 'cako', Arial, Helvetica, sans-serif;
-    border-bottom: 0.5px solid black;
-    margin-bottom: 3vh;
-    padding-bottom: 0.5vh;
-    text-transform: uppercase;
+/* ===========================
+   Headings
+=========================== */
+
+h2, h3, h4, h5 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.5px solid black;
 }
 
-h4{
-    font-size: 2vh;
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 0.5px solid black;
-    margin-bottom: 3vh;
-    padding-bottom: 0.5vh;
-    text-transform: lowercase;
+h2 {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h5{
-    font-size: 2vh;
-    font-family: Arial, Helvetica, sans-serif;
-    /*font-weight: bolder;*/
-    font-style: italic;
-    margin-bottom: 1.8vh;
-    padding-bottom: 0.5vh;
+h3 {
+  font-size: 0.9rem;
+  font-family: 'cako', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 
-
-p, ul, a{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8vh;
+h4 {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: lowercase;
 }
 
+h5 {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
 
-.arrow{
- font-size: 2vh;
- justify-content: flex-end;
- 
+/* ===========================
+   Layout Containers
+=========================== */
+
+.content {
+  min-height: 100vh;
 }
 
 .blog-header-container {
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    scroll-snap-type: y mandatory;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-snap-type: y mandatory;
 }
 
-.menu{
-    margin-bottom: 1.9vh;
-    justify-content: left; /* Centre horizontalement */
-    align-items: left; /* Centre verticalement */
-    text-align: left; /* Centre le texte dans son conteneur */
-    text-transform: uppercase;
-    line-height: 1.5; /* Espacement entre les lignes */
-    width: auto;
+.section,
+.soussection {
+  padding-left: 2vw;
+  margin-bottom: 5px;
 }
 
-.lien{
-    font-family: cako-italic;
-    font-size: 1.8vh;
+.soussoussection {
+  margin-top: 0.5rem;
 }
 
+.right, .left, .center {
+  padding: 20px;
+}
+
+.right {
+  padding-right: 2vw;
+}
+
+.scrollable-column {
+  height: 100vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.lineleft {
+  min-height: 100%;
+  border-left: 0.5px solid black;
+}
+
+.lineright {
+  height: 100%;
+  border-right: 0.5px solid black;
+}
+
+.linebottom {
+  padding: 15px;
+  border-bottom: 0.5px solid black;
+}
+
+/* ===========================
+   Sidebar & Navigation
+=========================== */
+
+.sidebar {
+  position: fixed;
+}
+
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.menu {
+  margin-bottom: 1rem;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 1.5;
+  width: auto;
+}
+
+.navbar-toggler {
+   border: none;
+}
+
+/* ===========================
+   Text Blocks
+=========================== */
+
+.titre {
+  font-size: 1.2rem;
+  padding-top: 0.4rem;
+  margin: 0;
+}
+
+.sous-titre {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-indent: 1em;
+  margin: 0;
+}
+
+.lefttext {
+  font-size: 0.85rem;
+  padding: 0.5rem 0 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===========================
+   Buttons & Links
+=========================== */
 
 .btn {
-    border: 0.5px solid black;
-    margin: 10px 10px 10px 10px;
+  border: 0.5px solid black;
+  margin: 10px;
 }
 
- /*
-.btn-custom {
-    border: 0.5px solid black;
-    padding: 5px 10px;
-    border-radius: 30px;
-    font-style: italic;
-    background: none;
-}*/
+.lien {
+  font-family: 'cako-italic', Arial, sans-serif;
+  font-size: 0.9rem;
+}
 
-.biblio{
-    font-family: Arial, Helvetica, sans-serif;
+.projet {
+  text-decoration: none;
+  color: #000;
+}
+
+/* ===========================
+   Cards & Images
+=========================== */
+
+.card {
+  border: 0.5px solid black;
 }
 
 .card-img-right {
@@ -132,147 +211,157 @@ p, ul, a{
   object-fit: cover;
 }
 
-.img-knit {
-  height: 20vh;
+.img-knit,
+.img-weave {
   width: 100%;
   object-fit: cover;
 }
 
-.img-weave {
-    width: 100%;
-  object-fit: cover;
+.img-knit {
+  height: 20vh;
 }
 
-.card{
-  border: 0.5px solid black; 
+.knitbox {
+  height: 20vh;
+  width: 100%;
+}
+
+/* ===========================
+   Lists & Projects
+=========================== */
+
+.knit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  border-bottom: 0.5px solid black;
+  list-style: none;
+}
+
+.projectlist {
+  list-style: none;
+  font-family: 'Cako', Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: underline dotted;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 6%;
+  text-underline-offset: 16%;
+  text-underline-position: from-font;
+  text-transform: lowercase;
+  margin-bottom: 0.8rem;
+}
+
+/* ===========================
+   Utility Classes
+=========================== */
+
+.arrow {
+  font-size: 1rem;
+  justify-content: flex-end;
 }
 
 .flex-auto {
-  -ms-flex: 0 0 auto;
-  -webkit-box-flex: 0;
   flex: 0 0 auto;
 }
 
-.h-250 { height: 250px; }
-@media (min-width: 768px) {
-  .h-md-250 { height: 250px; }
+.biblio {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.content {
-    min-height: 100vh;
+.h-250 {
+  height: 250px;
+}
+
+
+/* ===========================
+   Responsive Adjustments
+=========================== */
+
+@media (max-width: 768px) {
+  /* Layout: Stack columns vertically */
+  .right, .left, .center {
+    padding: 10px;
   }
 
-.right,.left, .center{
-    padding: 20px 20px 20px 20px;
-}
-
-.sidebar {
-    position: fixed;
-}
-
-.scrollable-column {
-  height: 100vh; /* or use vh like 80vh */
-  overflow-y: auto;
-  scrollbar-width: none;       /* Firefox */
-  -ms-overflow-style: none;    /* Internet Explorer 10+ */
-}
-
-.right{
-    padding-right: 2vw;
-}
-
-.knit {
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 0.5px solid black;
-    font-size: 1.5vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-.knitbox{
-  height: 20vh;
-  width: 100%;
-}
-
-
-.lineleft {
-    min-height: 100%;
-    border-left: 0.5px solid black ;
-}
-
-
-.lineright {
-    height: 100%;
-    border-right: 0.5px solid black ;
-}
-
-.sidebar a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    
-    }
-
-.titre {
-    font-size: 3vh;
-    padding: 0.4vh 0px 0px 0vw;
-    margin: 0px 0px 0px 0vw;
-}
-.sous-titre {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8vh;
-    text-indent: 1em;
-    padding: 0px 0px 0px 0vw;
-    margin: 0px 0px 0px 0vw;
-}
-
-.section {
-    padding: 0px 0px 0px 2vw;
-    margin-bottom: 30px;
+  .right {
+    padding-right: 0;
   }
 
-.soussection {
-    padding: 0px 0px 0px 2vw;
-    margin-bottom: 2px;
+  .section,
+  .soussection {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
   }
 
-.soussoussection{
-    margin-top: 2vh;
-}
+  .soussoussection {
+    margin-top: 1rem;
+  }
 
-.linebottom{
-    padding: 15px;
-    border-bottom: 0.5px solid black;
-}
- 
-.lefttext{
-    font-size: 1.8vh;
-    padding: 0.5vh 0px 10px 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+  /* Sidebar: Make static and full-width */
+  .sidebar {
+    position: static;
+    width: 100%;
+    border-right: none;
+    padding: 1rem;
+  }
 
-.projet{
-    text-decoration: none;
-    color: #000;
+  .sidebar a {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  /* Typography: Scale up slightly for readability */
+  h2, h3, h4, h5 {
+    font-size: 1rem;
+  }
+
+  .titre {
+    font-size: 1.5rem;
+  }
+
+  .sous-titre,
+  .lefttext,
+  .projectlist,
+  .lien {
+    font-size: 1rem;
+  }
+
+  /* Images: Make full-width and auto height */
+  .card-img-right {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-knit {
+    height: auto;
+  }
+
+  .knitbox {
+    height: auto;
+  }
+
+  /* Menu: Center text */
+  .menu {
+    text-align: center;
+  }
+
+  .hide-on-phone {
+    display: none;
+  }
+
+  /* Utility: Adjust spacing */
+  .linebottom {
+    padding: 1rem;
+  }
+
+  .arrow {
+    font-size: 1.2rem;
+  }
+
+  .h-md-250 {
+    height: 250px;
+  }
 }
-
-.projectlist{
-    list-style: none;
-    font-family: Cako;
-    font-size: 1.8vh;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-    text-decoration-skip-ink: none;
-    text-decoration-thickness: 6%; /* 0.96px */
-    text-underline-offset: 16%; /* 2.56px */
-    text-underline-position: from-font;
-    text-transform: lowercase;
-    margin-bottom: 1.2vh;
-    }
-

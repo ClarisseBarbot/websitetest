@@ -20,21 +20,48 @@
 </head>
 
 <body>
+        <!-- Mobile Navbar with Burger Button (visible only on phones) -->
+    <nav class="navbar navbar-light bg-white px-3 d-block d-md-none">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+        <span><img src="/static/iconographies/favicon.ico"></span>
+    </button>
+    </nav>
+
+    <!-- Offcanvas Sidebar Menu -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasMenuLabel">Menu</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <nav class="nav flex-column">
+      <a class="menu titre" href="index.html">ACCUEIL</a>
+      <a class="menu titre" href="maille.html">MAILLE</a>
+      <a class="menu titre" href="tissage.html">TISSAGE</a>
+      <a href="armures.html" class="menu sous-titre">armures</a>
+      <a class="menu titre" href="assemblagestextile.html">ASSEMBLAGES</a>
+      <a class="menu titre" href="projet.html">PROJETS</a>
+    </nav>
+    <hr>
+    <p class="lefttext hide-on-phone">formes & outils<br>ens paris-saclay<br>université paris-saclay</p>
+  </div>
+</div>
+
+<!-- Desktop Sidebar (hidden on mobile) -->
+
     <div class="d-flex content">
         <div class="left col-2">
-            <nav class="sidebar">
+            <nav class="sidebar d-none d-md-block">
             <a class="menu titre"  href="index.html">ACCUEIL</a>
             <a class="menu titre"  href="maille.html">MAILLE</a>
             <a class="menu titre" href="tissage.html">TISSAGE</a>
             <a class="menu titre" href="assemblagestextile.html">ASSEMBLAGES </a>       
-            <!--<a class="menu" href="ressources.html">RESSOURCES</a>
-            <a class="menu" href="bibliotheque.html">BIBLIOGRAPHIE</a>-->
             <a class="menu titre" href="projet.html">PROJETS</a>
             <hr>
             <p class="lefttext">formes & outils<br>ens paris-saclay<br>université paris-saclay</p>
             </nav>
         </div>
-        <div class="center col">
+        <div class="center col hide-on-phone">
             <div class="lineleft">
                 <!--
                 <div class="section">
