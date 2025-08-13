@@ -98,6 +98,7 @@ p, ul{
     align-items: left; /* Centre verticalement */
     text-align: left; /* Centre le texte dans son conteneur */
     text-transform: uppercase;
+    width: auto;
 }
 
 .lien{
