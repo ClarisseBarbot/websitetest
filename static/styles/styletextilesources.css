@@ -133,6 +133,12 @@ p, ul{
   object-fit: cover;
 }
 
+.img-knit {
+  height: 20vh;
+  width: 100%;
+  object-fit: cover;
+}
+
 .card{
   border: 0.5px solid black; 
 }
@@ -173,6 +179,11 @@ p, ul{
     align-items: center;
     justify-content: space-between;
     
+}
+
+.knitbox{
+  height: 20vh;
+  width: 100%;
 }
 
 
