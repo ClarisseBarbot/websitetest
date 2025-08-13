@@ -1,16 +1,16 @@
 
 @font-face {
     font-family:'cako' ;
-    src: url("../../static/types/cako-regular.ttf");
+    src: url("../../static/types/cako-regular.ttf") format('truetype');
 
     font-family: 'cako-italique';
-    src: url("../../static/types/cako-regularitalic.ttf");
+    src: url("../../static/types/cako-regularitalic.ttf") format('truetype');
 
     font-family: 'joly';
-    src: url("../../static/types/JolyRegular.otf");
+    src: url("../../static/types/JolyRegular.otf") format('truetype');
 
     font-family: 'joly-italique';
-    src: url("../../static/types/JolyRegularItalic.otf");
+    src: url("../../static/types/JolyRegularItalic.otf") format('truetype');
 
   }
   
