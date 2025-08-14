@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formes & Outils</title>
+  <link rel="icon" type="image/x-icon" href="../static/iconographies/favicon.ico">
+
+    <!--Bootsrap-->
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">   
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      
+  <!-- Custom styles for this template -->
+  <link  href="../static/styles/styles.css" rel="stylesheet">
+  <link href="../static/styles/styletextilesources.css" rel="stylesheet">
+
+
+</head>
+
+<body>    <!-- Mobile Navbar with Burger Button (visible only on phones) -->
+    <nav class="navbar navbar-light bg-white px-3 d-block d-md-none">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+        <span><img src="/static/iconographies/favicon.ico"></span>
+    </button>
+    </nav>
+
+    <!-- Offcanvas Sidebar Menu -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <nav class="nav flex-column">
+      <a class="menu titre" href="index.html">ACCUEIL</a>
+      <a class="menu titre" href="maille.html">MAILLE</a>
+      <a href="armures.html" class="menu sous-titre">exemples kniterate</a>
+      <a class="menu titre" href="tissage.html">TISSAGE</a>
+      <a href="armures.html" class="menu sous-titre">armures</a>
+      <a class="menu titre" href="assemblagestextile.html">ASSEMBLAGES</a>
+      <a class="menu titre" href="projet.html">PROJETS</a>
+    </nav>
+    <hr>
+    <p class="lefttext hide-on-phone">formes & outils<br>ens paris-saclay<br>université paris-saclay</p>
+  </div>
+</div>
+
+
+    <div class="d-flex content">
+        <div class="left col-2 hide-on-phone">
+            <nav class="sidebar d-none d-md-block">
+            <a class="menu titre"  href="index.html">ACCUEIL</a>
+            <a class="menu titre"  href="maille.html">MAILLE</a>
+            <a href="armures.html" class="sous-titre">exemples kniterate</a>
+            <a class="menu titre" href="tissage.html">TISSAGE</a>
+             <a class="menu titre" href="assemblagestextile.html">ASSEMBLAGES </a> 
+            <!--<a class="menu" href="ressources.html">RESSOURCES</a>
+            <a class="menu" href="bibliotheque.html">BIBLIOGRAPHIE</a>-->
+            <a class="menu titre" href="projet.html">PROJETS</a>
+            <hr>
+            <p class="lefttext">formes & outils<br>ens paris-saclay<br>université paris-saclay</p>
+            </nav>
+        </div>
+        <div class=" center col">
+            <div class="lineleft">
+                <div class="section">
+                     
+                  <h3>Exemples de liages</h3>
+                  
+                    <div class="row g-3 mb-2">
+                      <div class="col-4">
+                            <div class="knitbox mb-2">
+                              <ul class="">
+                                <li class="knit">JERSEY</li>
+                                <li class="knit"><a href="/">Fichier BUCK</a> <span class="arrow">↗</span></li>
+                                <li class="knit"><a href="/static/kniteratefile/jersey/command.kc">Fichier KC</a> <span class="arrow">↗</span></li>
+                              </ul>
+                            </div>
+                            <div class="knitbox mb-2">
+                              <ul class="">
+                                <li class="knit">COTES 1/1</li>
+                                <li class="knit"><a href="/static/kniteratefile/cote11/cote11.buck">Fichier BUCK</a> <span class="arrow">↗</span></li>
+                                <li class="knit"><a href="/static/kniteratefile/cote11/command.kc">Fichier KC</a> <span class="arrow">↗</span></li>
+                              </ul>
+                              <p class="mt-2">Attention le rack doit être décalé de 0.5 pour réaliser ce point</p>
+                            </div>
+                            <div class="knitbox mb-2">
+                              <ul class="">
+                                <li class="knit">TUBULAIRE</li>
+                                <li class="knit"><a href="/static/kniteratefile/tubulaire/tubulaire.buck">Fichier BUCK</a> <span class="arrow">↗</span></li>
+                                <li class="knit"><a href="/static/kniteratefile/tubulaire/command.kc">Fichier KC</a> <span class="arrow">↗</span></li>
+                              </ul>
+                            </div>
+                            <div class="knitbox mb-2">
+                              <ul class="">
+                                <li class="knit">OTTOMAN</li>
+                                <li class="knit"><a href="/static/kniteratefile/ottoman/tests bourlets.buck">Fichier BUCK</a> <span class="arrow">↗</span></li>
+                                <li class="knit"><a href="/static/kniteratefile/ottoman/command.kc">Fichier KC</a> <span class="arrow">↗</span></li>
+                              </ul>
+                              <p class="mt-2">Dérivé du tubulaire, l'ottoman se caractérise par un nombre de lignes de tricot plus important sur une fonture que sur l'autre (avant ou arrière)</p>
+                            </div>
+                            <div class="knitbox mb-2">
+                              <ul class="">
+                                <li class="knit">JACQUARD DOUBLE-FACE</li>
+                                <li class="knit"><a href="/static/kniteratefile/jerseydoubleface/Jacquard color block.buck">Fichier BUCK</a> <a href="/static/kniteratefile/jerseydoubleface/Jacquard color block.buck"><span class="arrow">↗</span></a></li>
+                                <li class="knit"><a href="/static/kniteratefile/jerseydoubleface/command.kc">Fichier KC</a> <a href="/static/kniteratefile/jerseydoubleface/command.kc"><span class="arrow">↗</span></a></li>
+                              </ul>
+                            </div>
+                            <div class="knitbox mb-2">
+                              <ul class="">
+                                <li class="knit">CHARGES</li>
+                                <li class="knit"><a href="/static/kniteratefile/charges/charges.buck">Fichier BUCK</a> <a href="/static/kniteratefile/charges/charges.buck"><span class="arrow">↗</span></a></li>
+                                <li class="knit"><a href="/static/kniteratefile/charges/command.kc">Fichier KC</a> <a href="/static/kniteratefile/charges/command.kc"><span class="arrow">↗</span></a></li>
+                              </ul>
+                            </div>
+                            <div class="knitbox mb-2">
+                              <ul class="">
+                                <li class="knit">PLISSE</li>
+                                <li class="knit"><a href="/static/kniteratefile/plisse/Plissé.buck">Fichier BUCK</a> <a href="/static/kniteratefile/plisse/Plissé.buck"><span class="arrow">↗</span></a></li>
+                                <li class="knit"><a href="/static/kniteratefile/plisse/command.kc">Fichier KC</a> <a href="/static/kniteratefile/plisse/command.kc"><span class="arrow">↗</span></a></li>
+                              </ul>
+                            </div>
+                            <div class="knitbox mb-2">
+                              <ul class="">
+                                <li class="knit">CHEVALEMENT</li>
+                                <li class="knit"><a href="/static/kniteratefile/chevalement/cotes 2_2 chevalements.buck">Fichier BUCK</a> <a href="/static/kniteratefile/chevalement/cotes 2_2 chevalements.buck"><span class="arrow">↗</span></a></li>
+                                <li class="knit"><a href="/static/kniteratefile/chevalement/command.kc">Fichier KC</a> <a href="/static/kniteratefile/chevalement/command.kc"><span class="arrow">↗</span></a></li>
+                              </ul>
+                            </div>
+                        </div>
+                      <div class="col-4">
+                        
+                              <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/jersey.png" alt="jersey">
+                              <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/cote11.png" alt="cote 1/1">
+                              <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/tubulaire.png" alt="tubulaire">
+                              <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/ottoman.png" alt="ottoman">
+                              <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/jacquarddoubleface.png" alt="jacquard">
+                              <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/charges.png" alt="charges">
+                              <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/plisse.png" alt="plissé">
+                              <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/chevalement.png" alt="chevalement">
+                              
+                      </div>
+                          
+                      <div class="col-4 ">
+                      
+                        <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/jerseyphoto.jpg" alt="jersey photo">
+                        <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/cote11photo.jpg" alt="cote photo">
+                        <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/tubulairephoto.jpg" alt="tubulaire photo">
+                        <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/ottomanphoto.jpg" alt="ottoman photo">
+                        <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/jacquarddoublefacephoto.jpg" alt="jacquard photo">
+                        <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/chargesphoto.jpg" alt="charges photo">
+                        <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/plissephoto.jpg" alt="plissé">
+                        <img class="img-knit flex-auto d-none d-md-block mb-2" src="../static/iconographies/knit/chevalementphoto.jpg" alt="chevalement">
+                      </div>
+                    <div class="linebottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        
+      </div>
+</body>
+
+</html>
