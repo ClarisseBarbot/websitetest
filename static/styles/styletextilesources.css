@@ -197,6 +197,10 @@ h6 {
   font-size: 0.7rem;
 }
 
+.hoverprojet:hover{
+  font-style: italic;
+}
+
 /* ===========================
    Buttons & Links
 =========================== */
@@ -222,13 +226,18 @@ h6 {
 
 .card {
   border: 0.5px solid black;
-  height: 20vh;
+  height: 30vh;
 }
 
 .card-img-right {
   height: 100%;
   width: 50%;
   object-fit: cover;
+}
+
+.black {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .img-knit,
