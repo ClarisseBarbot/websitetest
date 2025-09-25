@@ -250,6 +250,11 @@ h6 {
   height: 20vh;
 }
 
+.img-sewing {
+  height: 30vh;
+  object-fit: contain;
+}
+
 .knitbox {
   height: 20vh;
   width: 100%;
